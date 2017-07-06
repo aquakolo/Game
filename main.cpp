@@ -9,13 +9,14 @@ double FPS;
 
 RenderWindow window(VideoMode(szerokosc, wysokosc), "Gra");
 // OnStart,OnClose,OnKey,OnFps
-int main()
-{
+int main(){
+	
 	Time time;
 	Clock clock;
 	Event event;
 	Mouse mouse;
 	OnStart();
+	
 	while (window.isOpen())
 	{
 		window.clear();
